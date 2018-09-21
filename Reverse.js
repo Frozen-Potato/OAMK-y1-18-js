@@ -42,9 +42,26 @@ process.stdin.on( "data", function( input_from_user )
 			process.stdout.write("\n You have won, surprisingly\n\n ");
 		} else { 	
 			process.stdout.write("\n Sorry, m8. You didn't win shit \n\n");
-		};  
+		}; 
 
-
+		var i = 0;
+		var j = 0;
+		lot.sort(function(a , b){return a - b});
+		given_numbers.sort(function(a , b){return a - b});
+		while ( i < lot.length && j < given_numbers.length)
+		{
+			i++;
+			j++;
+			if (lot[i - 1] == given_numbers[j - 1])
+			{
+				process.stdout.write("\n Number " + i + " aka " + lot[i - 1] + " is correct. ");
+			} 
+			else 
+			{
+				process.stdout.write("\n Number " + i + " in your roaster ( " + given_numbers[j - 1] + " ) is different from the final result ( " + lot[j - 1] + " ). " );
+			}
+		}
+		process.stdout.write( "\n\n" ) ;
       		process.exit() ;  // This terminates the program.
    	}
    	else if ( number_from_keyboard <= 40 && number_from_keyboard >= 0 )
