@@ -10,6 +10,8 @@ So, you are here, I don't even know why you even bother to be here in the first 
 
 **Hei**
 
+Within this repo, you can find some **not all of the exercises** in the JavaScript class in my year 1 in OAMK ( Oulu University of Applied Sciences). 
+
 _Hope you enjoy your stay here_
 
 >Mcfkcoding@gmail.com
