@@ -12,7 +12,7 @@ So, you are here, I don't even know why you even bother to be here in the first 
 
 Within this repo, you can find some, **not all of the exercises** in the JavaScript class in my year 1 in OAMK ( Oulu University of Applied Sciences). 
 
-_Link to the exercise shall not be reveal~_
+_Link to the exercises shall not be reveal~_
 
 _Hope you enjoy your stay here_
 
