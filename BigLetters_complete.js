@@ -45,52 +45,6 @@ const blank_data    =	[ " ",
 	   		  " ",
 			  " "];
 
-//ex1
-/*
-function print_big_letter( given_letter )
-{
-	if ( given_letter == 'A' )
-   	{
-      		for ( let letter_data_line of letter_A_data )
-      		{
-        		process.stdout.write( "\n " + letter_data_line ) ;
-      		}
-   	}
-   	else if ( given_letter == 'B' )
-   	{
-      		for ( let letter_data_line of letter_B_data )
-      		{
-        		process.stdout.write( "\n " + letter_data_line ) ;
-      		}
-   	}
-   	else if ( given_letter == 'C' )
-   	{
-      		for ( let letter_data_line of letter_C_data )
-      		{
-         		process.stdout.write( "\n " + letter_data_line ) ;
-      		}
-   	}
-   	else if ( given_letter == 'D' )
-	{
-
-      		for ( let letter_data_line of letter_D_data )
-		{
-         		process.stdout.write( "\n " + letter_data_line ) ;
-		}
-	}
-	else
-   	{
-      		for ( let letter_data_line of letter_E_data )
-      		{
-         		process.stdout.write( "\n " + letter_data_line ) ;
-      		}
-   	}
-
-   process.stdout.write( "\n" ) ;
-}
-*/
-
-
 function inp(i){
 	var data;
 	switch ( i )
@@ -105,22 +59,6 @@ function inp(i){
 	return data;
 }
 
-// ex 2 + 3
-/*
-function print_big_letter( given_number )
-{
-	var letter_data = inp(given_number);
-	for (let i of letter_data)
-	{
-		for (let j of i)
-		{
-			process.stdout.write(j + j);
-		}
-		process.stdout.write("\n");
-	}
-	console.log("\n\n");
-}
-*/
 function print_big_letter(St)
 {
 	var lg = St.length;
