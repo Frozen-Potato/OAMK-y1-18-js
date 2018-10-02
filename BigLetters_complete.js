@@ -29,6 +29,7 @@ const letter_D_data = 	[ "xxxxxx    ",
 			  "xx    xx  ",
 			  "xx   xx   ",
 			  "xxxxxx    "];
+
 const letter_E_data =	[ "xxxxxxxx  ",
 			  "xx        ",
 			  "xx        ",
