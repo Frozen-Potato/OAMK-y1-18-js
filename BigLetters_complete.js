@@ -46,7 +46,8 @@ const blank_data    =	[ " ",
 	   		  " ",
 			  " "];
 
-function inp(i){
+function inp(i)
+{
 	var data;
 	switch ( i )
 	{
