@@ -137,8 +137,7 @@ function printProperPy ( noLv )
 	process.stdout.write("\n");
 }
 
-
 print_pyramid( 18 , "X" ) ;  // print a pyramid with 18 levels
 printReversePyramid( 10  ) ;  // print a smaller pyramid
-printHollowPy( 10,1, "x");
+printHollowPy( x, 1 , "x");
 printProperPy(10);

@@ -54,13 +54,13 @@ process.stdin.on( "data", function( input_from_user )
       			if ( player_input == word_to_be_guessed  ) 
 				{
          			process.stdout.write( "\n Congratulations! \n\n" ) ;
-					process.stdout.write( "\n Number of guesses : " + GuCou +  "\n");
+				process.stdout.write( "\n Number of guesses : " + GuCou +  "\n");
          			check = true;
-					process.stdout.write("Do you wanna play more (Y/N) ?");
+				process.stdout.write("Do you wanna play more (Y/N) ?");
       			}
    	} else 	if ( player_input.length < 1 && check == false )
 			{	
-      			process.stdout.write( " \n Game interrupted. \n\n" ) ;
+      				process.stdout.write( " \n Game interrupted. \n\n" ) ;
 				check = true;
 				process.stdout.write("Do you wanna play more (Y/N) ?");
    	} else 	if ( player_input == "Y" ) 
